@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+         .relative{
+            position: relative;
+        }
+        .absolute{
+            position:absolute;
+            top:0px;
+            right:0px;
+        }
+        .absolute1{
+            position:absolute;
+            right:250px;
+            top:150px;
+        }
+        .div1{
+            width:48%;
+            margin-left: 30px;
+           position:absolute;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            position: relative;
+            height:500px;
+            width: 100%;
+            margin-top: 100px;
+            
+        }
+
+        .div1, .div2{
+            display: inline-block;
+            height: 500px;
+            
+           
+
+        }
+        .div2{
+            width:40%;
+            position:absolute;
+            left:700px;
+            
+            height: 300px;
+            top:100px;
+            
+            
+        }
+        
+        p{
+            font-size: 15px;
+            width:500px;
+            line-height: 30px;
+        }
+        .div3{
+            border-top:2px solid grey;
+            border-bottom:2px solid grey;
+            height: 700px;
+        }
+        #p1{
+            color: rgb(247, 64, 64);
+            font-weight: bold;
+            font-size: 25px;
+            height: 130px;
+            text-align: center;
+            margin-top: 50px;
+            width:100%;
+        }
+    .div4, .div5, .div6, .div7{
+    display:inline-block;
+    text-align: center;
+    width: 24.5%;
+   
+    }
+    .div5, .div6, .div7{
+        border-left: 2px solid grey;
+    }
+    .p4, .p5, .p6, .p7{
+   
+    text-align: center;
+    width: 390px;
+    font-size: 20px;
+    font-weight: lighter;
+    }
+    .btn-danger{
+    vertical-align: middle;
+    
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="relative">
+        <img src="product-banner-desktop.webp" width="100%" height="500px">
+        <div class="absolute"><img src="logo.png"></div>
+        <div class="absolute1"><img src="darkCrunch1.png"></div>
+    </div>
+
+    <div class="container">
+        <div class="div1"><img src="zulubar-dark-crunch.png" height="500px"></div>
+        <div class="div2">
+            <p style="color:  rgb(247, 64, 64); font-size:25px; font-weight: bold; ">Zulubar Dark Crunch</p>
+            <p>Get ready to indulge in the darkness with the irresistible Zulubar Dark Crunch - the perfect combination of rich flavours and satisfying crunch with the goodness of almonds</p>
+            <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+        </div>
+    </div>
+    <div class="div3">
+        <p id="p1">YOU MAY ALSO LIKE</p>
+        <div class="div4">
+            <img src="darkCrunch2.webp" height="300px">
+            <p class="p4">Zulubar</p>
+            <button type="button" class="btn btn-danger">BUY NOW</button>
+        </div>
+        <div class="div5">
+           <img src="darkCrunch3.jpg" height="300px">
+            <p class="p5">Alphonso Mango</p>
+            <button type="button" class="btn btn-danger">BUY NOW</button>
+        </div>
+        <div class="div6">
+            <img src="darkCrunch4.webp" height="300px">
+            <p class="p6">Strawberry Sundae</p>
+            <button type="button" class="btn btn-danger">BUY NOW</button>
+        </div>
+        <div class="div7">
+            <img src="darkCrunch5.jpg" height="300px">
+            <p class="p7">Ferrero Blast Hotch Potch</p>
+            <button type="button" class="btn btn-danger">BUY NOW</button>
+        </div>
+
+    </div>
+    <img src="about3.png" height="500px" width="100%">
+</body>
+</html>
